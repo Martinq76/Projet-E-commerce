@@ -1,15 +1,40 @@
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 2rem;
-    width: 2rem;
-    outline: black;
-    background-color: #d0c4df;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
+.Manu {
+  border: 2px dashed red;
+  background: url("Img/Manu/BackgroundManu.png") no-repeat center center;
+  background-size: cover;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .carouselimage {
-  display: block;
+  display: flex;
+  margin: auto;
   width: auto;
-  height: 20rem;
+  height: 15rem;
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 2rem;
+  width: 2rem;
+  outline: black;
+  background-color: #d0c4df;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+} */
+
+.col-sm-4 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.col-sm-8 {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 1, 5em;
+  font-weight: bold;
+  color: black;
+  padding-right: 2rem;
 }
