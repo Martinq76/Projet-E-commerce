@@ -1,0 +1,15 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 2rem;
+    width: 2rem;
+    outline: black;
+    background-color: #d0c4df;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carouselimage {
+  display: block;
+  width: auto;
+  height: 20rem;
+}
