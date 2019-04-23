@@ -26,3 +26,13 @@ text-align: center;
   background: #72a8e0;
   font-size: 0.8rem;
 }
+.Tarif{
+  
+  border: solid 0.2rem #72a8e0;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  background: #3974b3;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
