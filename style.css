@@ -1,10 +1,10 @@
-.Yoan{
+.Yoan {
   background: url("Img/Manu/backgroundsite2.jpg") no-repeat center center;
   background-size: cover;
 }
 
 /* Placement du Logo : */
-.LogoTombéduKmion{
+.LogoTombéduKmion {
   padding-left: 2rem;
 }
 
@@ -41,50 +41,51 @@
 }
 
 /* Mise en forme des rubriques : */
-
-.quantity{
+.quantity {
   text-align: center;
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
-
-border-radius: 0.3rem;
-border: solid 0.2rem #3974b3;
-float: right;
-width: 3rem;
-height:4.2rem;
+  border-radius: 0.3rem;
+  border: solid 0.2rem #3974b3;
+  float: right;
+  width: 3rem;
+  height: 4.2rem;
 }
 
-.TitleImg{
+.TitleImg {
   text-align: center;
   font-weight: bold;
   margin-top: 1rem;
 }
 
-.TitreRubrique1{
-border: solid 0.2rem #3974b3;
-border-radius: 0.3rem;
-font-family: 'Exo', sans-serif;
-background: #6c757d;
-color: #faffff;
-text-align: center;
+.TitreRubrique1 {
+  border: solid 0.2rem #3974b3;
+  border-radius: 0.3rem;
+  font-family: 'Exo', sans-serif;
+  background: #6c757d;
+  color: #faffff;
+  text-align: center;
 }
-.TitreRubrique{
-border: solid 0.2rem #3974b3;
-border-radius: 0.3rem;
-margin-top: 1rem;
-font-family: 'Exo', sans-serif;
-background: #6c757d;
-color: #faffff;
-text-align: center;
+
+.TitreRubrique {
+  border: solid 0.2rem #3974b3;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  font-family: 'Exo', sans-serif;
+  background: #6c757d;
+  color: #faffff;
+  text-align: center;
 }
-.imgpc{
+
+.imgpc {
   position: sticky;
   margin-top: 1.5rem;
   width: 15rem;
   height: 15rem;
 }
-.DescriptifImg{
+
+.DescriptifImg {
   border: solid 0.2rem #3974b3;
   text-align: center;
   border-radius: 0.3rem;
@@ -92,7 +93,8 @@ text-align: center;
   background: #72a8e0;
   font-size: 0.8rem;
 }
-.Tarif{
+
+.Tarif {
   margin-left: 30px;
   float: left;
   text-align: center;
@@ -113,68 +115,80 @@ footer {
 }
 
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
+
 #footer {
-    background: grey !important;
+  background: grey !important;
 }
-#footer h5{
-	  padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
+
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
+
 #footer a {
-    color: #ffffff;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
-#footer ul.social li{
-	padding: 3px 0;
+
+#footer ul.social li {
+  padding: 3px 0;
 }
+
 #footer ul.social li a i {
-    margin-right: 5px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
 }
+
 #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+  font-size: 30px;
+  margin-top: -10px;
 }
+
 #footer ul.social li a,
-#footer ul.quick-links li a{
-	color:#ffffff;
+#footer ul.quick-links li a {
+  color: #ffffff;
 }
-#footer ul.social li a:hover{
-	color:#eeeeee;
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
 }
-#footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
 }
-#footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
 }
-#footer ul.quick-links li a i{
-	margin-right: 5px;
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
 }
+
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #payments {
@@ -188,19 +202,19 @@ section .section-title {
 /* #developpeurs {
   margin-top: 60px;
 } */
-
-@media (max-width:767px){
-	#footer h5 {
+@media (max-width:767px) {
+  #footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+  }
 }
-}
-/* Fin du Footer */
 
+/* Fin du Footer */
 /* Mise en responsive du logo: */
-.LogoTombéduKmion{
-padding-left: 7rem;
+.LogoTombéduKmion {
+  padding-left: 7rem;
 }
+
 /* Fin de la mise en responsive du logo: */
