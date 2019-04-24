@@ -1,3 +1,16 @@
+.quantity{
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+border-radius: 0.3rem;
+border: solid 0.2rem #3974b3;
+float: right;
+width: 3rem;
+height:4.2rem;
+}
+
 .TitleImg{
   text-align: center;
   font-weight: bold;
@@ -7,7 +20,7 @@
 .TitreRubrique{
 border: solid 0.2rem #3974b3;
 border-radius: 0.3rem;
-margin-top: 3rem;
+margin-top: 1rem;
 font-family: 'Exo', sans-serif;
 background: #72a8e0;
 text-align: center;
@@ -27,7 +40,8 @@ text-align: center;
   font-size: 0.8rem;
 }
 .Tarif{
-  
+  float: left;
+  text-align: center;
   border: solid 0.2rem #72a8e0;
   font-size: 1.3rem;
   border-radius: 0.3rem;
