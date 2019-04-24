@@ -1,13 +1,20 @@
+.Yoan{
+  background: url("Img/Manu/backgroundsite2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Placement du Logo : */
+.LogoTombéduKmion{
+  padding-left: 2rem;
+}
+
+/* Mise en forme du carousel : */
 .Manu {
   border: 2px solid #08177c;
   background: url("Img/Manu/BackgroundManu.png") no-repeat center center;
   background-size: cover;
   font-family: sans-serif;
   text-align: center;
-}
-
-.LogoTombéduKmion{
-  padding-left: 2rem;
 }
 
 .carouselimage {
@@ -33,18 +40,28 @@
   padding-right: 2rem;
 }
 
+/* Mise en forme des rubriques : */
 .TitleImg{
   text-align: center;
   font-weight: bold;
   margin-top: 1rem;
 }
 
+.TitreRubrique1{
+border: solid 0.2rem #3974b3;
+border-radius: 0.3rem;
+font-family: 'Exo', sans-serif;
+background: #6c757d;
+color: #faffff;
+text-align: center;
+}
 .TitreRubrique{
 border: solid 0.2rem #3974b3;
 border-radius: 0.3rem;
 margin-top: 1rem;
 font-family: 'Exo', sans-serif;
-background: #72a8e0;
+background: #6c757d;
+color: #faffff;
 text-align: center;
 }
 .imgpc{
@@ -164,7 +181,10 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+/* Fin du Footer */
+
+/* Mise en responsive du logo: */
 .LogoTombéduKmion{
 padding-left: 7rem;
 }
-/* Fin du Footer */
+/* Fin de la mise en responsive du logo: */

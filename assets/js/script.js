@@ -1,0 +1,5 @@
+$(function(){
+  $(#desktopPc).click(function(){
+    $(#)
+  }
+})
