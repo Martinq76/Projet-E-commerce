@@ -1,9 +1,16 @@
-td, th {
-  border: 1px solid black;
+.Yoan {
+  background: url("Img/Manu/backgroundsite2.jpg") no-repeat center center;
+  background-size: cover;
 }
 
+/* Placement du Logo : */
+.LogoTombéduKmion {
+  padding-left: 2rem;
+}
+
+/* Mise en forme du carousel : */
 .Manu {
-  border: 2px dashed red;
+  border: 2px solid #08177c;
   background: url("Img/Manu/BackgroundManu.png") no-repeat center center;
   background-size: cover;
   font-family: sans-serif;
@@ -17,15 +24,6 @@ td, th {
   height: 15rem;
 }
 
-/* .carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 2rem;
-  width: 2rem;
-  outline: black;
-  background-color: #d0c4df;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-} */
 .col-sm-4 {
   display: block;
   margin: auto;
@@ -42,16 +40,18 @@ td, th {
   padding-right: 2rem;
 }
 
+/* Mise en forme des rubriques : */
 .quantity {
   text-align: center;
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
   border-radius: 0.3rem;
-  border: solid 0.2rem #3974b3;
+  border: solid 0.1rem #3974b3;
   float: right;
-  width: 3rem;
-  height: 4.2rem;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
 }
 
 .TitleImg {
@@ -60,12 +60,22 @@ td, th {
   margin-top: 1rem;
 }
 
+.TitreRubrique1 {
+  border: solid 0.2rem #3974b3;
+  border-radius: 0.3rem;
+  font-family: 'Exo', sans-serif;
+  background: #6c757d;
+  color: #faffff;
+  text-align: center;
+}
+
 .TitreRubrique {
   border: solid 0.2rem #3974b3;
   border-radius: 0.3rem;
   margin-top: 1rem;
   font-family: 'Exo', sans-serif;
-  background: #72a8e0;
+  background: #6c757d;
+  color: #faffff;
   text-align: center;
 }
 
@@ -86,6 +96,7 @@ td, th {
 }
 
 .Tarif {
+  margin-left: 30px;
   float: left;
   text-align: center;
   border: solid 0.2rem #72a8e0;
@@ -95,6 +106,19 @@ td, th {
   text-align: center;
   color: black;
   font-weight: bold;
+  vertical-align: middle;
+}
+
+.Price {
+  float: left;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.iconcad {
+  margin-left: 1.5rem;
+  float: left;
+  width: 3rem;
 }
 
 /* Début du Footer */
@@ -202,3 +226,9 @@ section .section-title {
 }
 
 /* Fin du Footer */
+/* Mise en responsive du logo: */
+.LogoTombéduKmion {
+  padding-left: 7rem;
+}
+
+/* Fin de la mise en responsive du logo: */
