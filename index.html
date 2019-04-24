@@ -48,14 +48,21 @@
                     <li> <a href="#">S'inscrire</a> </li>
                     <li> <a href="#">Mot de passe oublié</a> </li>
                   </ul>
-
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+    <button type="button" class="btn btn-primary">Se connecter</button>
+  </div>
+</div>
+</div>
+</div>
               <!-- Button trigger modal -->
-              <a class="nav-link" data-toggle="modal" href="#exampleModalCenter">
+              <a class="nav-link" data-toggle="modal" href="#exampleModalCenter2">
                 Mon panier
               </a>
 
               <!-- Modal -->
-              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -65,14 +72,20 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <ul>
-                        <li> <label for="email">Votre e-mail</label> <input id="email" type="email" name="" placeholder="e-mail" value=""></li>
-                        <li><label for="password">Mot de passe</label> <input id="password" type="password" name="" value=""></li>
-                        <li> <label for="">Se souvenir de moi</label><input type="checkbox" name="" value=""></li>
-                        <hr />
-                        <li> <a href="#">S'inscrire</a> </li>
-                        <li> <a href="#">Mot de passe oublié</a> </li>
-                      </ul>
+                      <table id="tableau" style="border: 1px solid black; border-collapse: collapse;">
+                          <thead>
+                            <tr>
+                              <th>Nom</th>
+                              <th>Ref.</th>
+                              <th>Quantité</th>
+                              <th>Prix</th>
+                            
+                            </tr>
+                          </thead>
+                          <tbody>
+
+                          </tbody>
+                        </table>
 
 
                     </div>
@@ -91,9 +104,10 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-        </div>
+
       </nav>
-    </div>
+</div>
+</div>
     <!-- Fin - barre de recherche-->
     <div class="row mx-auto bg-secondary ">
 
@@ -216,14 +230,14 @@
           <p class="TitleImg">PC tout-en-un ASUS A41GAT <br />ref: pcb001</p>
           <p class="DescriptifImg">Le PC tout-en-un ASUS A41GAT (90PT0201-M00190) est idéal pour équiper un magasin en vue d'une utilisation POS ou un lieu public pour l'équiper en écrans interactifs. Performant dans le cadre d'une utilisation
             bureautique, pratique et pourvu d'une connectique avec ou sans-fil complète.</p>
-          <button class="Tarif">549€95 <br /> ajouter au panier</button>
+          <button class="addButton" class="Tarif" value="0">549€95 <br /> ajouter au panier</button>
         </div>
         <div class="col">
           <img src="Img/Pc/Pc2.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC de bureau Coffee Macchiato <br />ref: pcb002</p>
           <p class="DescriptifImg">Le PC de bureau Coffee Macchiato est un PC Gaming conçu avec la dernière génération de processeurs Intel et associé aux meilleurs composants du marché dont la carte graphique gaming ultra puissante NVIDIA GeForce
             RTX 2080 pour des performances hallucinantes dans l'univers envoutant des jeux.</p>
-          <button class="Tarif">2549€95 <br /> ajouter au panier</button>
+          <button class="addButton" value="1">2549€95 <br /> ajouter au panier</button>
         </div>
         <div class="col">
           <img src="Img/Pc/Pc3.jpg" class="imgpc" alt="">
