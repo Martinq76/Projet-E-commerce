@@ -21,14 +21,12 @@
 
     <div class="collapse navbar-collapse" id="navbarSells">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Me connecter / M'inscrire <span class="sr-only">(current)</span></a>
-        </li>
+
         <li class="nav-item">
 
           <!-- Button trigger modal -->
           <a class="nav-link"  data-toggle="modal" href="#exampleModalCenter">
-            Mon panier
+            Me connecter / M'inscrire
           </a>
 
           <!-- Modal -->
@@ -45,7 +43,7 @@
                   <ul>
                     <li>  <label for="email">Votre e-mail</label>  <input id="email" type="email" name="" placeholder="e-mail" value=""></li>
                     <li><label for="password">Mot de passe</label>  <input id="password" type="password" name="" value=""></li>
-                    <li>  <label for="">Se souvenir de moi</label><input type="checkbox" name="" value=""></li>
+                    <li>  <label class="mr-1"for="RememberMeCheckbox"> Se souvenir de moi </label><input id="RememberMeCheckbox" type="checkbox" name="" value=""></li>
                     <hr/>
                     <li> <a href="#">S'inscrire</a> </li>
                     <li> <a href="#">Mot de passe oublié</a> </li>
@@ -62,7 +60,9 @@
             </div>
           </div>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mon panier<span class="sr-only">(current)</span></a>
+        </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
