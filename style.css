@@ -47,10 +47,11 @@
   font-size: 1.5rem;
   font-weight: bold;
   border-radius: 0.3rem;
-  border: solid 0.2rem #3974b3;
+  border: solid 0.1rem #3974b3;
   float: right;
-  width: 3rem;
-  height: 4.2rem;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
 }
 
 .TitleImg {
@@ -105,6 +106,19 @@
   text-align: center;
   color: black;
   font-weight: bold;
+  vertical-align: middle;
+}
+
+.Price {
+  float: left;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.iconcad {
+  margin-left: 1.5rem;
+  float: left;
+  width: 3rem;
 }
 
 /* Début du Footer */
