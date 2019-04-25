@@ -235,33 +235,10 @@ section .section-title {
   margin-top: 1rem;
 }
 
-.partenaires {
+.partenaires{
   color: white;
   text-align:center;
 }
-
-#part1 {
-  width: 7rem;
-  height: 7rem;
-}
-
-#part2 {
-  width: 7rem;
-  height: 7rem;
-}
-
-#part3 {
-  width: 18rem;
-  height: 7rem;
-}
-
-#part4 {
-  width: 18rem;
-  height: 7rem;
-}
-
-#part5 {
-  width: 18rem;
 #part1{
 margin-right: 1rem;
 margin-top: 2rem;
