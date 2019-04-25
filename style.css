@@ -227,7 +227,41 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
+.Descriptifoot{
+  color: white;
+}
 
+#titrelien{
+  font-weight: bold;
+  font-size: 1rem;
+}
+#Smartpos{
+  margin-top: 1rem;
+}
+.partenaires{
+  color: white;
+  text-align: center;
+}
+#part1{
+width: 7rem;
+height: 7rem;
+}
+#part2{
+  width: 7rem;
+  height: 7rem;
+}
+#part3{
+  width: 18rem;
+  height: 7rem;
+}
+#part4{
+  width: 18rem;
+  height: 7rem;
+}
+#part5{
+  width: 18rem;
+  height: 7rem;
+}
 /* Fin du Footer */
 /* Mise en responsive du logo: */
 .LogoTombéduKmion {
