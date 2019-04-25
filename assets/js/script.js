@@ -2,7 +2,10 @@
 $(".containerPC2").hide();
 $(".containerMobile2").hide();
 $(".containerAccessories2").hide();
-$(".DescriptifImg").hide();
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
 
 $(function() {
   // Affichage des catégories :
@@ -41,13 +44,6 @@ $(function() {
     $(".containerMobile2").hide();
     $(".containerAccessories").hide();
     $(".containerAccessories2").show();
-  })
-  // Onmouseover et onmouseout du Descriptif de l'image :
-  $(".imgpc").mouseover(function() {
-    $(".DescriptifImg").show();
-  })
-  $(".imgpc").mouseout(function() {
-    $(".DescriptifImg").hide();
   })
 })
 //Fin affichage catégories
