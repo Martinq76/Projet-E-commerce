@@ -78,8 +78,8 @@ $(function() {
   })
   $("#image5").mouseout(function() {
     $("#description5").hide();
-
   })
+
   $("#image6").mouseover(function() {
     $("#description6").show();
   })
@@ -381,7 +381,6 @@ $(function() {
   })
 })
 //Fin affichage catégories
-
 
 
 var code = ['pcb001', 'pcb002', 'pcb003', 'pcb004', 'pcb005', 'pcb006', 'pcb007', 'pcb008', 'pcb009', 'pcb010', 'pcb011', 'pcb012', 'smart001', 'smart002', 'smart003', 'smart004', 'smart005', 'smart006', 'smart007', 'smart008', 'smart009', 'smart010', 'smart011', 'smart012', 'accs001', 'accs002', 'accs003', 'accs004', 'accs005', 'accs006', 'accs007', 'accs008', 'accs009', 'accs010', 'accs011', 'accs012'];

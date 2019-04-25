@@ -2,6 +2,7 @@
 .LogoTombéduKmion {
   padding-left: 2rem;
 }
+
 /* Mise en forme du carousel : */
 .Manu {
   border: 1px solid #152278;
@@ -58,19 +59,11 @@
   vertical-align: middle;
 }
 
-.TitreRubrique1 {
-  border: solid 0.2rem #3974b3;
-  border-radius: 0.3rem;
-  font-family: 'Exo', sans-serif;
-  color:black;
-  text-align: center;
-}
-
 .TitreRubrique {
-  border: solid 0.2rem #3974b3;
+  border: solid 0.2rem #6c757d;
   border-radius: 0.3rem;
   margin-top: 1rem;
-  font-family: 'Exo', sans-serif;
+  font-family: sans-serif;
   color: black;
   text-align: center;
 }
@@ -106,21 +99,22 @@
   vertical-align: middle;
 }
 
-.col{
+.col {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+
 .Price {
   float: left;
+  margin-left: 3rem;
   font-size: 2rem;
   vertical-align: middle;
   text-align: center;
 }
 
 .iconcad {
-
   margin-left: 0.5rem;
-  float: left;
+  float: right;
   width: 3rem;
 }
 
@@ -227,41 +221,50 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
-.Descriptifoot{
+
+.Descriptifoot {
   color: white;
 }
 
-#titrelien{
+#titrelien {
   font-weight: bold;
   font-size: 1rem;
 }
-#Smartpos{
+
+#Smartpos {
   margin-top: 1rem;
 }
-.partenaires{
+
+.partenaires {
   color: white;
   text-align: center;
 }
-#part1{
-width: 7rem;
-height: 7rem;
-}
-#part2{
+
+#part1 {
   width: 7rem;
   height: 7rem;
 }
-#part3{
+
+#part2 {
+  width: 7rem;
+  height: 7rem;
+}
+
+#part3 {
   width: 18rem;
   height: 7rem;
 }
-#part4{
+
+#part4 {
   width: 18rem;
   height: 7rem;
 }
-#part5{
+
+#part5 {
   width: 18rem;
   height: 7rem;
 }
+
 /* Fin du Footer */
 /* Mise en responsive du logo: */
 .LogoTombéduKmion {
