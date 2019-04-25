@@ -36,6 +36,11 @@
 }
 
 /* Mise en forme des rubriques : */
+.addButton{
+  background-color: rgba(235, 238, 238, 0.04);
+  border: none;
+}
+
 .quantity {
   margin-top: 0.5rem;
   text-align: center;
