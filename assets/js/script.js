@@ -2,10 +2,8 @@
 $(".containerPC2").hide();
 $(".containerMobile2").hide();
 $(".containerAccessories2").hide();
+$(".DescriptifImg").hide();
 
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
 
 $(function() {
   // Affichage des catégories :
@@ -45,8 +43,346 @@ $(function() {
     $(".containerAccessories").hide();
     $(".containerAccessories2").show();
   })
+
+  // Mise en animation des descriptifs :
+  $("#image1").mouseover(function() {
+    $("#description1").show();
+  })
+  $("#image1").mouseout(function() {
+    $("#description1").hide();
+  })
+
+  $("#image2").mouseover(function() {
+    $("#description2").show();
+  })
+  $("#image2").mouseout(function() {
+    $("#description2").hide();
+  })
+
+  $("#image3").mouseover(function() {
+    $("#description3").show();
+  })
+  $("#image3").mouseout(function() {
+    $("#description3").hide();
+  })
+
+  $("#image4").mouseover(function() {
+    $("#description4").show();
+  })
+  $("#image4").mouseout(function() {
+    $("#description4").hide();
+  })
+
+  $("#image5").mouseover(function() {
+    $("#description5").show();
+  })
+  $("#image5").mouseout(function() {
+    $("#description5").hide();
+
+  })
+  $("#image6").mouseover(function() {
+    $("#description6").show();
+  })
+  $("#image6").mouseout(function() {
+    $("#description6").hide();
+  })
+
+  $("#image7").mouseover(function() {
+    $("#description7").show();
+  })
+  $("#image7").mouseout(function() {
+    $("#description7").hide();
+  })
+
+  $("#image8").mouseover(function() {
+    $("#description8").show();
+  })
+  $("#image8").mouseout(function() {
+    $("#description8").hide();
+  })
+
+  $("#image9").mouseover(function() {
+    $("#description9").show();
+  })
+  $("#image9").mouseout(function() {
+    $("#description19").hide();
+  })
+
+  $("#image10").mouseover(function() {
+    $("#description10").show();
+  })
+  $("#image10").mouseout(function() {
+    $("#description10").hide();
+  })
+
+  $("#image11").mouseover(function() {
+    $("#description11").show();
+  })
+  $("#image11").mouseout(function() {
+    $("#description11").hide();
+  })
+
+  $("#image12").mouseover(function() {
+    $("#description12").show();
+  })
+  $("#image12").mouseout(function() {
+    $("#description12").hide();
+  })
+
+  $("#image13").mouseover(function() {
+    $("#description13").show();
+  })
+  $("#image13").mouseout(function() {
+    $("#description13").hide();
+  })
+
+  $("#image14").mouseover(function() {
+    $("#description14").show();
+  })
+  $("#image14").mouseout(function() {
+    $("#description14").hide();
+  })
+
+  $("#image15").mouseover(function() {
+    $("#description15").show();
+  })
+  $("#image15").mouseout(function() {
+    $("#description15").hide();
+  })
+
+  $("#image16").mouseover(function() {
+    $("#description16").show();
+  })
+  $("#image16").mouseout(function() {
+    $("#description16").hide();
+  })
+
+  $("#image17").mouseover(function() {
+    $("#description17").show();
+  })
+  $("#image17").mouseout(function() {
+    $("#description17").hide();
+  })
+
+  $("#image18").mouseover(function() {
+    $("#description18").show();
+  })
+  $("#image18").mouseout(function() {
+    $("#description18").hide();
+  })
+
+  $("#image19").mouseover(function() {
+    $("#description19").show();
+  })
+  $("#image19").mouseout(function() {
+    $("#description19").hide();
+  })
+
+  $("#image20").mouseover(function() {
+    $("#description20").show();
+  })
+  $("#image20").mouseout(function() {
+    $("#description20").hide();
+  })
+  $("#image21").mouseover(function() {
+    $("#description21").show();
+  })
+  $("#image21").mouseout(function() {
+    $("#description21").hide();
+  })
+
+  $("#image22").mouseover(function() {
+    $("#description22").show();
+  })
+  $("#image22").mouseout(function() {
+    $("#description22").hide();
+  })
+
+  $("#image23").mouseover(function() {
+    $("#description23").show();
+  })
+  $("#image23").mouseout(function() {
+    $("#description23").hide();
+  })
+
+  $("#image24").mouseover(function() {
+    $("#description24").show();
+  })
+  $("#image24").mouseout(function() {
+    $("#description24").hide();
+  })
+
+  $("#image25").mouseover(function() {
+    $("#description25").show();
+  })
+  $("#image25").mouseout(function() {
+    $("#description25").hide();
+  })
+
+  $("#image26").mouseover(function() {
+    $("#description26").show();
+  })
+  $("#image26").mouseout(function() {
+    $("#description26").hide();
+  })
+
+  $("#image27").mouseover(function() {
+    $("#description27").show();
+  })
+  $("#image27").mouseout(function() {
+    $("#description27").hide();
+  })
+
+  $("#image28").mouseover(function() {
+    $("#description28").show();
+  })
+  $("#image28").mouseout(function() {
+    $("#description28").hide();
+  })
+
+  $("#image29").mouseover(function() {
+    $("#description29").show();
+  })
+  $("#image29").mouseout(function() {
+    $("#description29").hide();
+  })
+
+  $("#image30").mouseover(function() {
+    $("#description30").show();
+  })
+  $("#image30").mouseout(function() {
+    $("#description30").hide();
+  })
+
+  $("#image31").mouseover(function() {
+    $("#description31").show();
+  })
+  $("#image31").mouseout(function() {
+    $("#description31").hide();
+  })
+
+  $("#image32").mouseover(function() {
+    $("#description32").show();
+  })
+  $("#image32").mouseout(function() {
+    $("#description32").hide();
+  })
+
+  $("#image33").mouseover(function() {
+    $("#description33").show();
+  })
+  $("#image33").mouseout(function() {
+    $("#description33").hide();
+  })
+
+  $("#image34").mouseover(function() {
+    $("#description34").show();
+  })
+  $("#image34").mouseout(function() {
+    $("#description34").hide();
+  })
+
+  $("#image35").mouseover(function() {
+    $("#description35").show();
+  })
+  $("#image35").mouseout(function() {
+    $("#description35").hide();
+  })
+
+  $("#image36").mouseover(function() {
+    $("#description36").show();
+  })
+  $("#image36").mouseout(function() {
+    $("#description36").hide();
+  })
+
+  $("#image37").mouseover(function() {
+    $("#description37").show();
+  })
+  $("#image37").mouseout(function() {
+    $("#description37").hide();
+  })
+
+  $("#image38").mouseover(function() {
+    $("#description38").show();
+  })
+  $("#image38").mouseout(function() {
+    $("#description38").hide();
+  })
+
+  $("#image39").mouseover(function() {
+    $("#description39").show();
+  })
+  $("#image39").mouseout(function() {
+    $("#description39").hide();
+  })
+
+  $("#image40").mouseover(function() {
+    $("#description40").show();
+  })
+  $("#image40").mouseout(function() {
+    $("#description40").hide();
+  })
+
+  $("#image41").mouseover(function() {
+    $("#description41").show();
+  })
+  $("#image41").mouseout(function() {
+    $("#description41").hide();
+  })
+
+  $("#image42").mouseover(function() {
+    $("#description42").show();
+  })
+  $("#image42").mouseout(function() {
+    $("#description42").hide();
+  })
+
+  $("#image43").mouseover(function() {
+    $("#description43").show();
+  })
+  $("#image43").mouseout(function() {
+    $("#description43").hide();
+  })
+
+  $("#image44").mouseover(function() {
+    $("#description44").show();
+  })
+  $("#image44").mouseout(function() {
+    $("#description44").hide();
+  })
+
+  $("#image45").mouseover(function() {
+    $("#description45").show();
+  })
+  $("#image45").mouseout(function() {
+    $("#description45").hide();
+  })
+
+  $("#image46").mouseover(function() {
+    $("#description46").show();
+  })
+  $("#image46").mouseout(function() {
+    $("#description46").hide();
+  })
+
+  $("#image47").mouseover(function() {
+    $("#description47").show();
+  })
+  $("#image47").mouseout(function() {
+    $("#description47").hide();
+  })
+
+  $("#image48").mouseover(function() {
+    $("#description48").show();
+  })
+  $("#image48").mouseout(function() {
+    $("#description48").hide();
+  })
 })
 //Fin affichage catégories
+
+
 
 var code = ['pcb001', 'pcb002', 'pcb003', 'pcb004', 'pcb005', 'pcb006', 'pcb007', 'pcb008', 'pcb009', 'pcb010', 'pcb011', 'pcb012', 'smart001', 'smart002', 'smart003', 'smart004', 'smart005', 'smart006', 'smart007', 'smart008', 'smart009', 'smart010', 'smart011', 'smart012', 'accs001', 'accs002', 'accs003', 'accs004', 'accs005', 'accs006', 'accs007', 'accs008', 'accs009', 'accs010', 'accs011', 'accs012'];
 
