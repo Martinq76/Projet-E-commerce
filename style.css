@@ -1,5 +1,3 @@
-
-
 /* Placement du Logo : */
 .LogoTombéduKmion {
   padding-left: 2rem;
@@ -7,7 +5,7 @@
 
 /* Mise en forme du carousel : */
 .Manu {
-  border: 2px solid #08177c;
+  border: 1px solid #152278;
   background: url("Img/Manu/BackgroundManu.png") no-repeat center center;
   background-size: cover;
   font-family: sans-serif;
@@ -39,9 +37,10 @@
 
 /* Mise en forme des rubriques : */
 .quantity {
+  margin-top: 0.5rem;
   text-align: center;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   border-radius: 0.3rem;
   border: solid 0.1rem #3974b3;
@@ -106,6 +105,10 @@
   vertical-align: middle;
 }
 
+.col{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
 .Price {
   float: left;
   font-size: 2rem;
@@ -113,7 +116,8 @@
 }
 
 .iconcad {
-  margin-left: 1.5rem;
+
+  margin-left: 0.5rem;
   float: left;
   width: 3rem;
 }

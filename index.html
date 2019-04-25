@@ -6,6 +6,7 @@
   <script src="assets\js\jquery-3.3.1.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
   <title>Site E-commerce</title>
 </head>
 
@@ -168,157 +169,148 @@
   <!-- Fin du carousel -->
   <!--partie body de yoan-->
   </div>
-  <div class="Yoan">
+  <div class="Yoan" >
     <div class="containerPC">
       <h1 class="TitreRubrique1">PC DE BUREAU</h1>
       <div class="row">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc1.jpg" class="imgpc" alt="">
-          <p class="TitleImg">PC tout-en-un ASUS A41GAT <br />ref: pcb001</p>
+          <p class="TitleImg" >PC tout-en-un ASUS A41GAT <br />ref: pcb001</p>
           <p class="DescriptifImg">Le PC tout-en-un ASUS A41GAT (90PT0201-M00190) est idéal pour équiper un magasin en vue d'une utilisation POS ou un lieu public pour l'équiper en écrans interactifs. Performant dans le cadre d'une utilisation
             bureautique, pratique et pourvu d'une connectique avec ou sans-fil complète.</p>
           <p class=Price>549€95</p>
+          <div>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
-
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        </div>
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc2.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC de bureau Coffee Macchiato <br />ref: pcb002</p>
           <p class="DescriptifImg">Le PC de bureau Coffee Macchiato est un PC Gaming conçu avec la dernière génération de processeurs Intel et associé aux meilleurs composants du marché dont la carte graphique gaming ultra puissante NVIDIA GeForce
             RTX 2080 pour des performances hallucinantes dans l'univers envoutant des jeux.</p>
           <p class="Price">2549€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc3.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC de bureau Chopin <br />ref: pcb003</p>
-          <p class="DescriptifImg">Le PC Chopin est une configuration parfaite pour l'informatique de tous les jours. Ce PC économique sans carte graphique (chipset graphique intégré Intel HD Graphics) est conçu pour la bureautique sans contraintes.
-            Le PC LDLC Chopin est une station de travail polyvalente à prix abordable.</p>
+          <p class="DescriptifImg">Le PC Chopin est une configuration parfaite pour l'informatique de tous les jours. Ce PC économique sans carte graphique (chipset graphique intégré Intel HD Graphics) est conçu pour la bureautique sans contraintes. Le PC LDLC Chopin est une station de travail polyvalente à prix abordable.</p>
           <p class="Price">679€94</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc4.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC Gamer ASUS ROG G12CM <br />ref: pcb004</p>
-          <p class="DescriptifImg">Profitez de hautes performances avec le PC Gamer ASUS ROG G12CM Edition Call of Duty Black OPS IV ! Pensé pour les joueurs, ce PC offre un look agressif, dispose de composants ultra-performants. Un achat idéal pour
-            les Gamers à la recherche de performances sans concessions !</p>
+          <p class="DescriptifImg">Profitez de hautes performances avec le PC Gamer ASUS ROG G12CM Edition Call of Duty Black OPS IV ! Pensé pour les joueurs, ce PC offre un look agressif, dispose de composants ultra-performants. Un achat idéal pour les Gamers à la recherche de performances sans concessions !</p>
           <p class="Price">679€94</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
     <!--partie à cacher pc de bureau-->
     <div class="containerPC2">
-      <h1 class="TitreRubrique1">PC DE BUREAU</h1>
+      <h1 class="TitreRubrique1" id="titre1">PC DE BUREAU</h1>
       <div class="row">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc1.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC tout-en-un ASUS A41GAT <br />ref: pcb001</p>
-          <p class="DescriptifImg">Le PC tout-en-un ASUS A41GAT (90PT0201-M00190) est idéal pour équiper un magasin en vue d'une utilisation POS ou un lieu public pour l'équiper en écrans interactifs. Performant dans le cadre d'une utilisation
-            bureautique, pratique et pourvu d'une connectique avec ou sans-fil complète.</p>
+          <p class="DescriptifImg">Le PC tout-en-un ASUS A41GAT (90PT0201-M00190) est idéal pour équiper un magasin en vue d'une utilisation POS ou un lieu public pour l'équiper en écrans interactifs. Performant dans le cadre d'une utilisation bureautique, pratique et pourvu d'une connectique avec ou sans-fil complète.</p>
           <p class=Price>549€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
 
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc2.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC de bureau Coffee Macchiato <br />ref: pcb002</p>
-          <p class="DescriptifImg">Le PC de bureau Coffee Macchiato est un PC Gaming conçu avec la dernière génération de processeurs Intel et associé aux meilleurs composants du marché dont la carte graphique gaming ultra puissante NVIDIA GeForce
-            RTX 2080 pour des performances hallucinantes dans l'univers envoutant des jeux.</p>
+          <p class="DescriptifImg">Le PC de bureau Coffee Macchiato est un PC Gaming conçu avec la dernière génération de processeurs Intel et associé aux meilleurs composants du marché dont la carte graphique gaming ultra puissante NVIDIA GeForce RTX 2080 pour des performances hallucinantes dans l'univers envoutant des jeux.</p>
           <p class="Price">2549€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc3.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC de bureau Chopin <br />ref: pcb003</p>
-          <p class="DescriptifImg">Le PC Chopin est une configuration parfaite pour l'informatique de tous les jours. Ce PC économique sans carte graphique (chipset graphique intégré Intel HD Graphics) est conçu pour la bureautique sans contraintes.
-            Le PC LDLC Chopin est une station de travail polyvalente à prix abordable.</p>
+          <p class="DescriptifImg">Le PC Chopin est une configuration parfaite pour l'informatique de tous les jours. Ce PC économique sans carte graphique (chipset graphique intégré Intel HD Graphics) est conçu pour la bureautique sans contraintes.Le PC LDLC Chopin est une station de travail polyvalente à prix abordable.</p>
           <p class="Price">679€94</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc4.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC Gamer ASUS ROG G12CM <br />ref: pcb004</p>
-          <p class="DescriptifImg">Profitez de hautes performances avec le PC Gamer ASUS ROG G12CM Edition Call of Duty Black OPS IV ! Pensé pour les joueurs, ce PC offre un look agressif, dispose de composants ultra-performants. Un achat idéal pour
-            les Gamers à la recherche de performances sans concessions !</p>
+          <p class="DescriptifImg">Profitez de hautes performances avec le PC Gamer ASUS ROG G12CM Edition Call of Duty Black OPS IV ! Pensé pour les joueurs, ce PC offre un look agressif, dispose de composants ultra-performants. Un achat idéal pour les Gamers à la recherche de performances sans concessions !</p>
           <p class="Price">3299€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc5.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC NUC-I5-8-S1 <br />ref: pcb005</p>
-          <p class="DescriptifImg">Le PC NUC-I5-8-S1 est un PC petit format qui sera à la fois performant, compact, et peu onéreux. Equipé d'un processeur processeur Intel Core i5-7260U, il est également doté de 8 Go de RAM DDR4 et d'un SSD M.2 de
-            dernière génération de 240 Go.</p>
+          <p class="DescriptifImg">Le PC NUC-I5-8-S1 est un PC petit format qui sera à la fois performant, compact, et peu onéreux. Equipé d'un processeur processeur Intel Core i5-7260U, il est également doté de 8 Go de RAM DDR4 et d'un SSD M.2 de dernière génération de 240 Go.</p>
           <p class="Price">599€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc6.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC10 Bazooka <br />ref: pcb006</p>
-          <p class="DescriptifImg">Le PC10 Bazooka est un PC Gaming abordable équipé d'un processeur Intel dernière génération, d'une carte mère MSI, de 16 Go de RAM DDR4 et d'une carte graphique Nvidia GeForce GTX 1660 6 Go. Cette machine de guerre
-            dédiée aux jeux vidéo vous permettra d'aller à l'essentiel : JOUER & GAGNER !</p>
+          <p class="DescriptifImg">Le PC10 Bazooka est un PC Gaming abordable équipé d'un processeur Intel dernière génération, d'une carte mère MSI, de 16 Go de RAM DDR4 et d'une carte graphique Nvidia GeForce GTX 1660 6 Go. Cette machine de guerre dédiée aux jeux vidéo vous permettra d'aller à l'essentiel : JOUER & GAGNER !</p>
           <p class="Price">1079€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc7.jpg" class="imgpc" alt="">
           <p class="TitleImg">PC10 Macchiato Artic Refresh <br />ref: pcb007</p>
-          <p class="DescriptifImg">Le PC de bureau Macchiato Artic Refresh est une machine conçue pour le Gaming et équipée de la dernière génération de processeurs Intel (Coffee Lake) et associé aux meilleurs composants du marché dont la carte
-            graphique gaming référence NVIDIA GeForce RTX 2070 pour des performances supérieure</p>
+          <p class="DescriptifImg">Le PC de bureau Macchiato Artic Refresh est une machine conçue pour le Gaming et équipée de la dernière génération de processeurs Intel (Coffee Lake) et associé aux meilleurs composants du marché dont la carte graphique gaming référence NVIDIA GeForce RTX 2070 pour des performances supérieure</p>
           <p class="Price">1649€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc8.jpg" class="imgpc" alt="">
           <p class="TitleImg">Lenovo V330-20ICB AIO<br />ref: pcb008</p>
           <p class="DescriptifImg">Conçu pour l'entreprise, le PC tout-en-un Lenovo V310z vous offre la performance et le confort dont vous avez besoin au quotidien. D'un prix abordable, il est également simple à utiliser et à mettre en place</p>
           <p class="Price">699€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc9.jpg" class="imgpc" alt="">
           <p class="TitleImg">Lenovo ThinkStation P320 Tiny<br />ref: pcb009</p>
-          <p class="DescriptifImg">Gagnez de la place sans transiger sur la performance avec la station de travail Lenovo ThinkStation P320 Tiny ! Malgré sa taille compacte, elle offre de hautes performances pour les professionnels. Grâce à sa carte
-            graphique NVIDIA Quadro P600, elle vous permettra de connecter jusqu'à 6 moniteurs !</p>
+          <p class="DescriptifImg">Gagnez de la place sans transiger sur la performance avec la station de travail Lenovo ThinkStation P320 Tiny ! Malgré sa taille compacte, elle offre de hautes performances pour les professionnels. Grâce à sa carte graphique NVIDIA Quadro P600, elle vous permettra de connecter jusqu'à 6 moniteurs !</p>
           <p class="Price">1249€95</p>
           <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc10.jpg" class="imgpc" alt="">
           <p class="TitleImg">MSI Pro 16 Flex 8GL-001XEU <br />ref: pcb010</p>
-          <p class="DescriptifImg">Avec son écran tactile et son format compact, le tout-en-un MSI Pro 16 Flex 8GL est idéal pour une utilisation dans un commerce ou à domicile pour certains besoins spécifiques, dans une cuisine pour suivre des
-            recettes, par exemple.</p>
-          <button class="Tarif">499€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec son écran tactile et son format compact, le tout-en-un MSI Pro 16 Flex 8GL est idéal pour une utilisation dans un commerce ou à domicile pour certains besoins spécifiques, dans une cuisine pour suivre des recettes, par exemple.</p>
+          <p class="Price">499€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc11.jpg" class="imgpc" alt="">
           <p class="TitleImg">MSI Trident 3 VR7RC<br />ref: pcb011</p>
-          <p class="DescriptifImg">A la fois compact et ultra-performant, Le PC Gamer MSI Trident 3 offre la mobilité et la puissance dont vous avez besoin pour le jeu à domicile ou en déplacement. En plus de ses composants performants, il offre une
-            qualité audio supérieure, pour améliorer votre plaisir de jeu.</p>
-          <button class="Tarif">1299€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">A la fois compact et ultra-performant, Le PC Gamer MSI Trident 3 offre la mobilité et la puissance dont vous avez besoin pour le jeu à domicile ou en déplacement. En plus de ses composants performants, il offre une qualité audio supérieure, pour améliorer votre plaisir de jeu.</p>
+            <p class="Price">1299€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Pc/Pc12.jpg" class="imgpc" alt="">
           <p class="TitleImg">MSI Vortex W25 8SM-098FR <br />ref: pcb012</p>
-          <p class="DescriptifImg">Repoussez les limites de la performance et de la compacité avec la station de travail MSI Vortex W25 ! Malgré son châssis ultra-compact et léger, elle abrite des composants haut de gamme, pour des performances à la
-            hauteur de vos besoins !</p>
-          <button class="Tarif">4999€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Repoussez les limites de la performance et de la compacité avec la station de travail MSI Vortex W25 ! Malgré son châssis ultra-compact et léger, elle abrite des composants haut de gamme, pour des performances à la hauteur de vos besoins !</p>
+            <p class="Price">4999€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+        <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
@@ -326,37 +318,38 @@
     <div class="containerMobile">
       <h1 class="TitreRubrique">MOBILE</h1>
       <div class="row">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Iphone.jpg" class="imgpc" alt="">
           <p class="TitleImg">IPhone Xs Max d'Apple <br />ref: smart001</p>
-          <p class="DescriptifImg">Arborant un magnifique écran Super Retina OLED de 6.5" à résolution 1242 x 2688 pixels, l'iPhone Xs Max d'Apple vous en mettra plein la vue. Intelligent, surprenant et grandiose, l'iPhone Xs Max vous offre les
-            couleurs les plus précises du marché et des noirs vraiment fidèles.</p>
-          <button class="Tarif">859€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Arborant un magnifique écran Super Retina OLED de 6.5" à résolution 1242 x 2688 pixels, l'iPhone Xs Max d'Apple vous en mettra plein la vue. Intelligent, surprenant et grandiose, l'iPhone Xs Max vous offre les couleurs les plus précises du marché et des noirs vraiment fidèles.</p>
+            <p class="Price">859€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Samsung.jpg" class="imgpc" alt="">
           <p class="TitleImg">Samsung Galaxy S8 <br />ref: smart002</p>
-          <p class="DescriptifImg">Avec le Samsung Galaxy S8 bousculez les codes esthétiques et repoussez les limites des écrans tels que vous les connaissez. Plongez dans une toute nouvelle dimension qui réunit puissance, connectivité, élégance et
-            confort d'utilisation au sein d'un même smartphone.</p>
-          <button class="Tarif">709€96 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec le Samsung Galaxy S8 bousculez les codes esthétiques et repoussez les limites des écrans tels que vous les connaissez. Plongez dans une toute nouvelle dimension qui réunit puissance, connectivité, élégance et confort d'utilisation au sein d'un même smartphone.</p>
+            <p class="Price">709€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Honor.jpg" class="imgpc" alt="">
           <p class="TitleImg">Honor 9 Lite <br />ref: smart003</p>
-          <p class="DescriptifImg">Avec le Honor 9 Lite, profitez au maximum des photos que vous capturez grâce notamment à son double appareil photo principal. Appréciez également des performances élevées avec un processeur Kirin 659 Octo-Core
-            cadencé à 2,36 GHz et 3 Go de RAM et profitez d'un affichage 5.65" en résolution Full HD+.</p>
-          <button class="Tarif">229€96 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec le Honor 9 Lite, profitez au maximum des photos que vous capturez grâce notamment à son double appareil photo principal. Appréciez également des performances élevées avec un processeur Kirin 659 Octo-Core cadencé à 2,36 GHz et 3 Go de RAM et profitez d'un affichage 5.65" en résolution Full HD+.</p>
+            <p class="Price">229€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/huawei.jpg" class="imgpc" alt="">
           <p class="TitleImg">Huawei Mate 20 Pro <br /> ref: smart004</p>
-          <p class="DescriptifImg">Avec un design moderne et élégant, le Huawei Mate 20 Pro ne laissera personne indifférent. Il est notamment équipé d'un sublime écran FullView OLED de 6.39" à résolution QHD+ de 1440 x 3120 pixels, d'un processeur
-            Kirin 980 Octo-Core cadencé à 2.6 GHz ainsi que 128 Go de stockage.</p>
-          <button class="Tarif">249€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec un design moderne et élégant, le Huawei Mate 20 Pro ne laissera personne indifférent. Il est notamment équipé d'un sublime écran FullView OLED de 6.39" à résolution QHD+ de 1440 x 3120 pixels, d'un processeur Kirin 980 Octo-Core cadencé à 2.6 GHz ainsi que 128 Go de stockage.</p>
+            <p class="Price">249€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
@@ -364,101 +357,101 @@
     <div class="containerMobile2">
       <h1 class="TitreRubrique">MOBILE</h1>
       <div class="row">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Iphone.jpg" class="imgpc" alt="">
           <p class="TitleImg">IPhone Xs Max d'Apple <br />ref: smart001</p>
-          <p class="DescriptifImg">Arborant un magnifique écran Super Retina OLED de 6.5" à résolution 1242 x 2688 pixels, l'iPhone Xs Max d'Apple vous en mettra plein la vue. Intelligent, surprenant et grandiose, l'iPhone Xs Max vous offre les
-            couleurs les plus précises du marché et des noirs vraiment fidèles.</p>
-          <button class="Tarif">859€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Arborant un magnifique écran Super Retina OLED de 6.5" à résolution 1242 x 2688 pixels, l'iPhone Xs Max d'Apple vous en mettra plein la vue. Intelligent, surprenant et grandiose, l'iPhone Xs Max vous offre les couleurs les plus précises du marché et des noirs vraiment fidèles.</p>
+            <p class="Price">859€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Samsung.jpg" class="imgpc" alt="">
           <p class="TitleImg">Samsung Galaxy S8 <br />ref: smart002</p>
-          <p class="DescriptifImg">Avec le Samsung Galaxy S8 bousculez les codes esthétiques et repoussez les limites des écrans tels que vous les connaissez. Plongez dans une toute nouvelle dimension qui réunit puissance, connectivité, élégance et
-            confort d'utilisation au sein d'un même smartphone.</p>
-          <button class="Tarif">709€96 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec le Samsung Galaxy S8 bousculez les codes esthétiques et repoussez les limites des écrans tels que vous les connaissez. Plongez dans une toute nouvelle dimension qui réunit puissance, connectivité, élégance et confort d'utilisation au sein d'un même smartphone.</p>
+            <p class="Price">709€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Honor.jpg" class="imgpc" alt="">
           <p class="TitleImg">Honor 9 Lite <br />ref: smart003</p>
-          <p class="DescriptifImg">Avec le Honor 9 Lite, profitez au maximum des photos que vous capturez grâce notamment à son double appareil photo principal. Appréciez également des performances élevées avec un processeur Kirin 659 Octo-Core
-            cadencé à 2,36 GHz et 3 Go de RAM et profitez d'un affichage 5.65" en résolution Full HD+.</p>
-          <button class="Tarif">229€96 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec le Honor 9 Lite, profitez au maximum des photos que vous capturez grâce notamment à son double appareil photo principal. Appréciez également des performances élevées avec un processeur Kirin 659 Octo-Core cadencé à 2,36 GHz et 3 Go de RAM et profitez d'un affichage 5.65" en résolution Full HD+.</p>
+            <p class="Price">229€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/huawei.jpg" class="imgpc" alt="">
           <p class="TitleImg">Huawei Mate 20 Pro <br /> ref: smart004</p>
-          <p class="DescriptifImg">Avec un design moderne et élégant, le Huawei Mate 20 Pro ne laissera personne indifférent. Il est notamment équipé d'un sublime écran FullView OLED de 6.39" à résolution QHD+ de 1440 x 3120 pixels, d'un processeur
-            Kirin 980 Octo-Core cadencé à 2.6 GHz ainsi que 128 Go de stockage.</p>
-          <button class="Tarif">249€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec un design moderne et élégant, le Huawei Mate 20 Pro ne laissera personne indifférent. Il est notamment équipé d'un sublime écran FullView OLED de 6.39" à résolution QHD+ de 1440 x 3120 pixels, d'un processeur Kirin 980 Octo-Core cadencé à 2.6 GHz ainsi que 128 Go de stockage.</p>
+            <p class="Price">249€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Honor10.jpg" class="imgpc" alt="">
           <p class="TitleImg">Honor 10 lite<br /> ref: smart005</p>
-          <p class="DescriptifImg">Laissez-vous embarquer dans un univers incroyable où la technologie rencontre l'esthétisme grâce au Honor 10 Lite. Équipé d'un écran de 6.21" à résolution Full HD+ de 1080 x 2340 pixels et avec une occupation de
-            l'écran de plus de 90%, le Honor 10 Lite vous offre une meilleure expérience visuelle.</p>
-          <button class="Tarif">199€94 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Laissez-vous embarquer dans un univers incroyable où la technologie rencontre l'esthétisme grâce au Honor 10 Lite. Équipé d'un écran de 6.21" à résolution Full HD+ de 1080 x 2340 pixels et avec une occupation de l'écran de plus de 90%, le Honor 10 Lite vous offre une meilleure expérience visuelle.</p>
+            <p class="Price">199€94</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/huaweyp30.jpg" class="imgpc" alt="">
           <p class="TitleImg">Huawey p 30<br /> ref: smart006</p>
-          <p class="DescriptifImg">Véritable bond en avant technologique, le Huawei P30 va vous surprendre. Avec un design moderne et élégant, il est notamment équipé d'un sublime écran FullView OLED de 6.1" à résolution Full HD+ de 1080 x 2340
-            pixels, d'un processeur Kirin 980 Octo-Core cadencé à 2.6 GHz et de 6 Go de RAM.</p>
-          <button class="Tarif">799€96<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Véritable bond en avant technologique, le Huawei P30 va vous surprendre. Avec un design moderne et élégant, il est notamment équipé d'un sublime écran FullView OLED de 6.1" à résolution Full HD+ de 1080 x 2340 pixels, d'un processeur Kirin 980 Octo-Core cadencé à 2.6 GHz et de 6 Go de RAM.</p>
+            <p class="Price">799€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/xiaomiredmi7.jpg" class="imgpc" alt="">
           <p class="TitleImg">Xiaomi redmi 7<br /> ref: smart007</p>
-          <p class="DescriptifImg">Arborant des composants performants et un confort d'utilisation avancé, le Xiaomi Redmi 7 est un condensé de qualité. Il est propulsé par un processeur Qualcomm Snapdragon 632 Octo-Core cadencé à 1.8 GHz, 3 Go de
-            RAM et 32 Go d'espace de stockage.</p>
-          <button class="Tarif">169€96<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Arborant des composants performants et un confort d'utilisation avancé, le Xiaomi Redmi 7 est un condensé de qualité. Il est propulsé par un processeur Qualcomm Snapdragon 632 Octo-Core cadencé à 1.8 GHz, 3 Go de RAM et 32 Go d'espace de stockage.</p>
+            <p class="Price">169€96</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/SamsungA50.jpg" class="imgpc" alt="">
           <p class="TitleImg">Samsung A50<br /> ref: smart008</p>
-          <p class="DescriptifImg">Grâce à son incroyable écran panoramique de 6.4" à résolution Full HD+ de 1080 x 2340 pixels, le Samsung Galaxy A50 va vous laisser sans voix. Moderne, il est doté d'un processeur Exynos 9610 Octo-Core cadencé à 2.3
-            GHz, de 4 Go de RAM et d'une capacité de stockage de 128 Go.</p>
-          <button class="Tarif">349€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Grâce à son incroyable écran panoramique de 6.4" à résolution Full HD+ de 1080 x 2340 pixels, le Samsung Galaxy A50 va vous laisser sans voix. Moderne, il est doté d'un processeur Exynos 9610 Octo-Core cadencé à 2.3 GHz, de 4 Go de RAM et d'une capacité de stockage de 128 Go.</p>
+            <p class="Price">349€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Iphone7.jpg" class="imgpc" alt="">
           <p class="TitleImg">Iphone 7<br /> ref: smart009</p>
-          <p class="DescriptifImg">Avec l'iPhone 7 Plus, Apple surpasse les qualités qui ont fait le succès de la précédente génération en offrant notamment des performances et une autonomie jamais vues sur un iPhone. Avec son écran Retina Full HD de
-            5.5", il est doté de l'écran d'iPhone le plus éclatant et le plus lumineux.</p>
-          <button class="Tarif">549€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Avec l'iPhone 7 Plus, Apple surpasse les qualités qui ont fait le succès de la précédente génération en offrant notamment des performances et une autonomie jamais vues sur un iPhone. Avec son écran Retina Full HD de 5.5", il est doté de l'écran d'iPhone le plus éclatant et le plus lumineux.</p>
+            <p class="Price">549€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Blackberry.jpg" class="imgpc" alt="">
           <p class="TitleImg">Blackberry KEYone<br /> ref: smart010</p>
-          <p class="DescriptifImg">Résolument différent et résolument BlackBerry, le KEYone réinvente votre façon de communiquer et d'effectuer vos tâches ! Bien dans son époque, il séduit dès les premiers instants par sa finesse et son cadre en
-            aluminium, ainsi que par son dos souple et texturé qui offre une prise en main unique.</p>
-          <button class="Tarif">239€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Résolument différent et résolument BlackBerry, le KEYone réinvente votre façon de communiquer et d'effectuer vos tâches ! Bien dans son époque, il séduit dès les premiers instants par sa finesse et son cadre en aluminium, ainsi que par son dos souple et texturé qui offre une prise en main unique.</p>
+            <p class="Price">239€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Asus.jpg" class="imgpc" alt="">
           <p class="TitleImg">ASUS ROG Phone ZS600KL<br /> ref: smart011</p>
-          <p class="DescriptifImg">Prêt pour une aventure extraordinaire ? Avec le ASUS ROG Phone, devenez le maître du jeu et laissez vos sens se décupler. Avec en son coeur l'ADN ROG, le ROG Phone est une véritable machine de guerre et qui fera
-            tout pour que vous puissiez remporter vos batailles.</p>
-          <button class="Tarif">899€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Prêt pour une aventure extraordinaire ? Avec le ASUS ROG Phone, devenez le maître du jeu et laissez vos sens se décupler. Avec en son coeur l'ADN ROG, le ROG Phone est une véritable machine de guerre et qui fera tout pour que vous puissiez remporter vos batailles.</p>
+            <p class="Price">899€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Mobile/Motorola.jpg" class="imgpc" alt="">
           <p class="TitleImg">Motorola Moto G7 Play<br /> ref: smart012</p>
-          <p class="DescriptifImg">A la fois beau et puissant grâce à son processeur Qualcomm Snapdragon 632 Octo-Core cadencé à 1.8 GHz, le Motorola Moto G7 Play ne peut que vous impressionner. Équipé d'un grand écran tactile 5.7" à résolution HD+
-            de 720 x 1512 pixels, il vous immerge dans vos jeux et vos films.</p>
-          <button class="Tarif">169€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">A la fois beau et puissant grâce à son processeur Qualcomm Snapdragon 632 Octo-Core cadencé à 1.8 GHz, le Motorola Moto G7 Play ne peut que vous impressionner. Équipé d'un grand écran tactile 5.7" à résolution HD+ de 720 x 1512 pixels, il vous immerge dans vos jeux et vos films.</p>
+            <p class="Price">169€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
@@ -466,37 +459,37 @@
     <div class="containerAccessories">
       <h1 class="TitreRubrique">ACCESSOIRES</h1>
       <div class="row align-items-center mx-auto align-middle">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Barrette.jpg" class="imgpc" alt="">
           <p class="TitleImg">G.Skill Aegis (2 x 8 Go) DDR4 <br /> ref: accs001</p>
-          <p class="DescriptifImg">La mémoire Aegis a été conçue pour s'adapter à merveille sur des plateformes Intel de dernier cri dotées de processeurs Intel Core comme la sixième génération. L'objectif ? Offrir le plus de souplesse possible aux
-            joueurs chevronnés.</p>
-          <button class="Tarif">107€45 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La mémoire Aegis a été conçue pour s'adapter à merveille sur des plateformes Intel de dernier cri dotées de processeurs Intel Core comme la sixième génération. L'objectif ? Offrir le plus de souplesse possible aux joueurs chevronnés.</p>
+          <p class="Price">107€45</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/CarteGraphique.jpg" class="imgpc" alt="">
           <p class="TitleImg">NVIDIA TITAN RTX <br /> ref: accs002</p>
-          <p class="DescriptifImg">La carte graphique NVIDIA TITAN RTX est basée sur la nouvelle architecture GPU ultra-innovante NVIDIA Turing. Destinée aux professionnels de la 3D, de la photographie et de la vidéo, cette carte graphique ultra haut
-            de gamme se dote du nouveau processeur graphique NVIDIA TU102 et de 24 Go de GDDR6.</p>
-          <button class="Tarif">2799€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La carte graphique NVIDIA TITAN RTX est basée sur la nouvelle architecture GPU ultra-innovante NVIDIA Turing. Destinée aux professionnels de la 3D, de la photographie et de la vidéo, cette carte graphique ultra haut de gamme se dote du nouveau processeur graphique NVIDIA TU102 et de 24 Go de GDDR6.</p>
+          <p class="Price">2799€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/CarteMére.jpg" class="imgpc" alt="">
           <p class="TitleImg">ASUS ROG STRIX Z390-E <br /> ref: accs003</p>
-          <p class="DescriptifImg">La carte mère ASUS ROG STRIX Z390-E GAMING est faite pour accueillir les processeurs Intel Core de 9ème génération (Intel Coffee Lake Refresh). Basée sur le chipset Intel Z390 Express, elle permettra l'assemblage
-            d'une configuration Gaming équipée d'un processeur performant.</p>
-          <button class="Tarif">249€90 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La carte mère ASUS ROG STRIX Z390-E GAMING est faite pour accueillir les processeurs Intel Core de 9ème génération (Intel Coffee Lake Refresh). Basée sur le chipset Intel Z390 Express, elle permettra l'assemblage d'une configuration Gaming équipée d'un processeur performant.</p>
+          <p class="Price">249€90</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/DisqueDur.jpg" class="imgpc" alt="">
           <p class="TitleImg">Seagate BarraCuda 2 To <br /> ref: accs004</p>
-          <p class="DescriptifImg">Optez pour une grande capacité de stockage avec le disque dur Seagate BarraCuda 2 To. Cette gamme domine le marché en proposant les meilleures capacités pour les ordinateurs de bureau et périphériques mobiles. Ces
-            disques conviennent parfaitement aux mises à niveau et à tous les budgets.</p>
-          <button class="Tarif">89€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Optez pour une grande capacité de stockage avec le disque dur Seagate BarraCuda 2 To. Cette gamme domine le marché en proposant les meilleures capacités pour les ordinateurs de bureau et périphériques mobiles. Ces disques conviennent parfaitement aux mises à niveau et à tous les budgets.</p>
+          <p class="Price">89€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
@@ -504,100 +497,101 @@
     <div class="containerAccessories2">
       <h1 class="TitreRubrique">ACCESSOIRES</h1>
       <div class="row align-items-center mx-auto align-middle">
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Barrette.jpg" class="imgpc" alt="">
           <p class="TitleImg">G.Skill Aegis (2 x 8 Go) DDR4 <br /> ref: accs001</p>
-          <p class="DescriptifImg">La mémoire Aegis a été conçue pour s'adapter à merveille sur des plateformes Intel de dernier cri dotées de processeurs Intel Core comme la sixième génération. L'objectif ? Offrir le plus de souplesse possible aux
-            joueurs chevronnés.</p>
-          <button class="Tarif">107€45 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La mémoire Aegis a été conçue pour s'adapter à merveille sur des plateformes Intel de dernier cri dotées de processeurs Intel Core comme la sixième génération. L'objectif ? Offrir le plus de souplesse possible aux joueurs chevronnés.</p>
+          <p class="Price">107€45</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/CarteGraphique.jpg" class="imgpc" alt="">
           <p class="TitleImg">NVIDIA TITAN RTX <br /> ref: accs002</p>
-          <p class="DescriptifImg">La carte graphique NVIDIA TITAN RTX est basée sur la nouvelle architecture GPU ultra-innovante NVIDIA Turing. Destinée aux professionnels de la 3D, de la photographie et de la vidéo, cette carte graphique ultra haut
-            de gamme se dote du nouveau processeur graphique NVIDIA TU102 et de 24 Go de GDDR6.</p>
-          <button class="Tarif">2799€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La carte graphique NVIDIA TITAN RTX est basée sur la nouvelle architecture GPU ultra-innovante NVIDIA Turing. Destinée aux professionnels de la 3D, de la photographie et de la vidéo, cette carte graphique ultra haut de gamme se dote du nouveau processeur graphique NVIDIA TU102 et de 24 Go de GDDR6.</p>
+          <p class="Price">2799€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/CarteMére.jpg" class="imgpc" alt="">
           <p class="TitleImg">ASUS ROG STRIX Z390-E <br /> ref: accs003</p>
-          <p class="DescriptifImg">La carte mère ASUS ROG STRIX Z390-E GAMING est faite pour accueillir les processeurs Intel Core de 9ème génération (Intel Coffee Lake Refresh). Basée sur le chipset Intel Z390 Express, elle permettra l'assemblage
-            d'une configuration Gaming équipée d'un processeur performant.</p>
-          <button class="Tarif">249€90 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La carte mère ASUS ROG STRIX Z390-E GAMING est faite pour accueillir les processeurs Intel Core de 9ème génération (Intel Coffee Lake Refresh). Basée sur le chipset Intel Z390 Express, elle permettra l'assemblage d'une configuration Gaming équipée d'un processeur performant.</p>
+          <p class="Price">249€90</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/DisqueDur.jpg" class="imgpc" alt="">
           <p class="TitleImg">Seagate BarraCuda 2 To <br /> ref: accs004</p>
-          <p class="DescriptifImg">Optez pour une grande capacité de stockage avec le disque dur Seagate BarraCuda 2 To. Cette gamme domine le marché en proposant les meilleures capacités pour les ordinateurs de bureau et périphériques mobiles. Ces
-            disques conviennent parfaitement aux mises à niveau et à tous les budgets.</p>
-          <button class="Tarif">89€95 <br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Optez pour une grande capacité de stockage avec le disque dur Seagate BarraCuda 2 To. Cette gamme domine le marché en proposant les meilleures capacités pour les ordinateurs de bureau et périphériques mobiles. Ces disques conviennent parfaitement aux mises à niveau et à tous les budgets.</p>
+          <p class="Price">89€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Alim.jpg" class="imgpc" alt="">
           <p class="TitleImg">Antec HCG750<br /> ref: accs005</p>
-          <p class="DescriptifImg">Les alimentations Antec High Current Gamer Bronze avec un rendement de 89% permettent d'assurer à votre PC gaming une alimentation stable et performante. Profitez d'une garantie de 5 ans et d'une efficacité à toute
-            épreuve en silence grâce à un ventilateur 135 mm.</p>
-          <button class="Tarif">109€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Les alimentations Antec High Current Gamer Bronze avec un rendement de 89% permettent d'assurer à votre PC gaming une alimentation stable et performante. Profitez d'une garantie de 5 ans et d'une efficacité à toute épreuve en silence grâce à un ventilateur 135 mm.</p>
+          <p class="Price">109€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Graveur.jpg" class="imgpc" alt="">
           <p class="TitleImg">ASUS BC-12D2HT<br /> ref: accs006</p>
           <p class="DescriptifImg">Le lecteur Blu-Ray/graveur DVD ASUS BC-12D2HT est un modèle puissant et économe en énergie, capable de lire des données Blu-Ray en vitesse x12 et de graver des formats DVD±R en vitesse x16.</p>
-          <button class="Tarif">69€76<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="Price">69€76</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Aero.jpg" class="imgpc" alt="">
           <p class="TitleImg">Aerocool ORBIT RC <br /> ref: accs007</p>
-          <p class="DescriptifImg">Combinez style et refroidissement performant avec le kit de ventilateurs Aerocool ORBIT RC ! Avec ses 3 ventilateurs LED RGB et sa télécommande sans fil, ce kit vous permettra de personnaliser facilement le look de
-            votre boîtier PC, avec une tonne d'effets lumineux différents !</p>
-          <button class="Tarif">59€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Combinez style et refroidissement performant avec le kit de ventilateurs Aerocool ORBIT RC ! Avec ses 3 ventilateurs LED RGB et sa télécommande sans fil, ce kit vous permettra de personnaliser facilement le look de votre boîtier PC, avec une tonne d'effets lumineux différents !</p>
+          <p class="Price">59€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Upgrade.jpg" class="imgpc" alt="">
           <p class="TitleImg">Kit Upgrade AMD Ryzen ASUS PRIME<br /> ref: accs008</p>
-          <p class="DescriptifImg">Faîtes confiance à l'association de la carte mère ASUS PRIME B450M-K, du processeur AMD Ryzen 5 2600 (3.4 GHz) pour vous permettra de disposer d'une machine puissante polyvalente. Que vous soyez à la recherche d'un
-            PC Gaming, bureautique ou multimédia, ce kit sera parfait.</p>
-          <button class="Tarif">306€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Faîtes confiance à l'association de la carte mère ASUS PRIME B450M-K, du processeur AMD Ryzen 5 2600 (3.4 GHz) pour vous permettra de disposer d'une machine puissante polyvalente. Que vous soyez à la recherche d'un PC Gaming, bureautique ou multimédia, ce kit sera parfait.</p>
+          <p class="Price">306€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/Processeur.jpg" class="imgpc" alt="">
           <p class="TitleImg">Intel core I9<br /> ref: accs009</p>
-          <p class="DescriptifImg">Que vous soyez Gamer ou utilisateur ultra-exigeant, vous tirerez parti du meilleur de votre PC grâce au processeur Intel Core i9-9900K dôté de 8 Cores (16 Threads), de 16 Mo de cache de niveau 3 et de fréquences
-            Turbo pouvant atteindre 5.0 GHz sans overclocking !</p>
-          <button class="Tarif">599€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Que vous soyez Gamer ou utilisateur ultra-exigeant, vous tirerez parti du meilleur de votre PC grâce au processeur Intel Core i9-9900K dôté de 8 Cores (16 Threads), de 16 Mo de cache de niveau 3 et de fréquences Turbo pouvant atteindre 5.0 GHz sans overclocking !</p>
+          <p class="Price">599€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/CarteSon.jpg" class="imgpc" alt="">
           <p class="TitleImg">ASUS Strix Soar<br /> ref: accs010</p>
-          <p class="DescriptifImg">Strix Soar est une carte son gaming intégrant des composants à hautes performances pour satisfaire les joueurs en quête d'un son pur et fidèle. La Strix Soar fournit un son riche, immersif et limpide avec un rapport
-            de signal sur bruit de 116 dB et un amplificateur pour casque de 600 ohms.</p>
-          <button class="Tarif">99€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Strix Soar est une carte son gaming intégrant des composants à hautes performances pour satisfaire les joueurs en quête d'un son pur et fidèle. La Strix Soar fournit un son riche, immersif et limpide avec un rapport de signal sur bruit de 116 dB et un amplificateur pour casque de 600 ohms.</p>
+          <p class="Price">99€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/ventirad.jpg" class="imgpc" alt="">
           <p class="TitleImg"> Noctua NH-D15 SE-AM4<br /> ref: accs011</p>
-          <p class="DescriptifImg">La version Noctua NH-D15 SE-AM4 a été spécialement conçue pour les configurations basées sur le socket AMD AM4 (Ryzen) et est pourvue du système de fixation SecuFirm2 spécifique à l'AM4. Il est doté de deux
-            ventilateurs NF-A15 PWM 140mm et de la pâte thermique haute performance NT-H1.</p>
-          <button class="Tarif">99€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">La version Noctua NH-D15 SE-AM4 a été spécialement conçue pour les configurations basées sur le socket AMD AM4 (Ryzen) et est pourvue du système de fixation SecuFirm2 spécifique à l'AM4. Il est doté de deux ventilateurs NF-A15 PWM 140mm et de la pâte thermique haute performance NT-H1.</p>
+          <p class="Price">99€95</p>
+          <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity"value="1">
         </div>
-        <div class="col">
+        <div class="col" id="Corpdusite">
           <img src="Img/Accessoires/SSD.jpg" class="imgpc" alt="">
           <p class="TitleImg">Samsung SSD 860 EVO 500 Go<br /> ref: accs012</p>
-          <p class="DescriptifImg">Le disque SSD Samsung 860 EVO est conçu pour un usage quotidien. Vous n'aurez plus à choisir entre performances et fiabilité et pourrez utiliser votre PC dans les meilleures conditions grâce à l'association de la
-            mémoire V-NAND 3D Samsung et du contrôleur Samsung MJX.</p>
-          <button class="Tarif">84€95<br /> ajouter au panier</button>
-          <input type="number" step="1" min="0" max="100" name="quantity" class="quantity">
+          <p class="DescriptifImg">Le disque SSD Samsung 860 EVO est conçu pour un usage quotidien. Vous n'aurez plus à choisir entre performances et fiabilité et pourrez utiliser votre PC dans les meilleures conditions grâce à l'association de la mémoire V-NAND 3D Samsung et du contrôleur Samsung MJX.</p>
+            <p class="Price">84€95</p>
+            <img src="Img/icon/caddie.ico" id="caddy" class="iconcad" alt="">
+          <input type="number" step="1" min="1" max="100" name="quantity" class="quantity" value="1">
         </div>
       </div>
     </div>
@@ -612,7 +606,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4 text-center">
             <h5 class="font-weight-bold">Ordinateurs</h5>
             <ul class="list-unstyled quick-links">
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ordinateur De Bureau</a></li>
+              <li><a href="titre1"><i class="fa fa-angle-double-right"></i>Ordinateur De Bureau</a></li>
               <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ordinateur Gamer</a></li>
               <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ordinateur Tout-En-Un</a></li>
               <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Ordi4</a></li>
