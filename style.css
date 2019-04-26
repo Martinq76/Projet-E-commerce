@@ -1,3 +1,12 @@
+html {
+  width: 100%;
+}
+
+.Yoan {
+  background: url("Img/Manu/backgroundsite2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 /* Placement du Logo : */
 .LogoTombéduKmion {
   padding-left: 2rem;
@@ -116,6 +125,10 @@
   margin-left: 0.5rem;
   float: right;
   width: 3rem;
+}
+
+th, td {
+  border: 1px solid black;
 }
 
 /* Début du Footer */
