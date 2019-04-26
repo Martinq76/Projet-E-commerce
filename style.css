@@ -1,10 +1,6 @@
-html {
-  width: 100%;
-}
-
-.Yoan {
-  background: url("Img/Manu/backgroundsite2.jpg") no-repeat center center;
-  background-size: cover;
+/*Cellule tableau*/
+th {
+  border: 1px solid black;
 }
 
 /* Placement du Logo : */
@@ -127,8 +123,10 @@ html {
   width: 3rem;
 }
 
-th, td {
-  border: 1px solid black;
+.addButton {
+  text-decoration: none;
+  border: none;
+  background: none;
 }
 
 /* Début du Footer */
@@ -290,8 +288,8 @@ height: 7rem;
   width: 14rem;
   height: 7rem;
 }
-
 /* Fin du Footer */
+
 /* Mise en responsive du logo: */
 .LogoTombéduKmion {
   padding-left: 7rem;
