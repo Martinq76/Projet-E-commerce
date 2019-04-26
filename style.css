@@ -1,3 +1,8 @@
+/*Cellule tableau*/
+th {
+  border: 1px solid black;
+}
+
 /* Placement du Logo : */
 .LogoTombéduKmion {
   padding-left: 2rem;
@@ -118,9 +123,15 @@
 }
 
 .iconcad {
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   float: right;
   width: 3rem;
+}
+
+.addButton {
+  text-decoration: none;
+  border: none;
+  background: none;
 }
 
 /* Début du Footer */
@@ -282,8 +293,8 @@ height: 7rem;
   width: 14rem;
   height: 7rem;
 }
-
 /* Fin du Footer */
+
 /* Mise en responsive du logo: */
 .LogoTombéduKmion {
   padding-left: 7rem;
